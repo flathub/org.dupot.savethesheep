@@ -1,6 +1,6 @@
 app-id: org.dupot.savethesheep
 base: org.godotengine.godot.BaseApp
-base-version: '4.5'
+base-version: '4.7'
 runtime: org.freedesktop.Platform
 runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
