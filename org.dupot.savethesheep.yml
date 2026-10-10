@@ -35,7 +35,7 @@ modules:
       - type: archive
         dest: gameArchive
         url: https://github.com/imikado/dupotSaveTheSheep/releases/download/1.9.0/bundle.tar.gz
-        sha256: a9aff04ee92bee641501cfbd978486e2320b8d29bd183c82abbc0678c7201c55
+        sha256: c801b7a69ce2a99f71e3b5ea90101bde3e04fc69e5db840d5f8773269f592f4a
      
       - type: script
         dest-filename: savethesheep.sh
