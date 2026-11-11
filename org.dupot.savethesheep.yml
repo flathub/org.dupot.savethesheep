@@ -11,6 +11,8 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --device=dri
+  - --device=input
+  - --device-if=all:!has-input-device
 
 modules:
   - name: savethesheep
@@ -34,8 +36,8 @@ modules:
     sources:
       - type: archive
         dest: gameArchive
-        url: https://github.com/imikado/dupotSaveTheSheep/releases/download/1.10.0/bundle.tar.gz
-        sha256: 13efc0a7c98ddd547b91b60c7a71081d84596cc94623d16a3a3909451b85a7e6
+        url: https://github.com/imikado/dupotSaveTheSheep/releases/download/1.12.0/bundle.tar.gz
+        sha256: a022848d5ee4116bf00a45e4975e6c2a888417d54edceccb0489fb18b703b4e6
      
       - type: script
         dest-filename: savethesheep.sh
